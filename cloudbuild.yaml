@@ -33,3 +33,4 @@ options:
     machineType: 'N1_HIGHCPU_8'
 images:
     - '${_GCR_IO}/$PROJECT_ID/$REPO_NAME:$SHORT_SHA'
+logsBucket: 'gs://cloud_build_logs-$PROJECT_ID'
