@@ -27,5 +27,5 @@ func main() {
 
 // handler func for '/'
 func handler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintln(w, "Hello World! More people!")
+	fmt.Fprintln(w, "Hello World! CI/CD for the win!")
 }
